@@ -3,7 +3,7 @@ Usage
 
 .. _installation:
 
-InstallationTest
+Installation
 ------------
 
 To use Lumache, first install it using pip:
