@@ -31,7 +31,8 @@ Contents
 
    usage
    api
-
+   About
+   
 .. toctree::
    :maxdepth: 2
    :caption: HP Modeling & Building RC
