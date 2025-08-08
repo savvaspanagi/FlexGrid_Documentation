@@ -17,10 +17,13 @@ Welcome to the About section of the FlexGridPy documentation. Here you can find 
    About/license
    About/contact
 
-.. image:: ../Image/SPS_HD.png
-   :width: 18em
-   :align: left
+.. list-table::
+   :widths: 1 1
+   :align: center
 
-.. image:: ../Image/eac.png
-   :width: 22em
-   :align: right
+   * - .. image:: ../Image/SPS_HD.png
+         :width: 18em
+         :align: center
+     - .. image:: ../Image/eac.png
+         :width: 22em
+         :align: center
