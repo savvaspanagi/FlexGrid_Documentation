@@ -30,12 +30,10 @@ Contents
    :caption: Getting Started
 
    usage
-   api
-   About
    
 .. toctree::
    :maxdepth: 2
-   :caption: HP Modeling & Building RC
+   :caption: HP & Building Modeling 
 
    hp_modeling
 
@@ -44,6 +42,10 @@ Contents
    :caption: Active Distribution Grid
 
    active_distribution_grid
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Ambience Dataset
 
 .. toctree::
    :maxdepth: 2
