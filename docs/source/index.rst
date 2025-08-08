@@ -30,4 +30,4 @@ Contents
 
    usage
    api
-   About FlexGridPy
+   About
