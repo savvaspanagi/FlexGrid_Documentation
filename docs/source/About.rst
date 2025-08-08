@@ -8,16 +8,13 @@ About FlexGridPy
 
 Welcome to the About section of the FlexGridPy documentation. Here you can find information about the project, its contributors, licensing, and how to get in touch.
 
-.. raw:: html
+.. image:: ../Image/SPS_HD.png
+		:width: 18em
+		:align: left
 
-   <div style="display: flex; justify-content: center; align-items: center; gap: 2em; margin-bottom: 1em;">
-     <div>
-       <img src="../Image/SPS_HD.png" alt="Sustainable Power Systems Lab" style="width: 18em; display: block; margin: 0 auto;">
-     </div>
-     <div>
-       <img src="../Image/eac.png" alt="Electricity Authority of Cyprus" style="width: 22em; display: block; margin: 0 auto;">
-     </div>
-   </div>
+.. image:: ../Image/eac.png
+		:width: 22em
+		:align: right
 
 .. toctree::
    :maxdepth: 2
