@@ -1,7 +1,7 @@
-HP Modeling
+Bulding Thermodynamic Modeling
 =========================
 
-This section covers the heat pump modeling and building RC (Resistance-Capacitance) capabilities of FlexGridPy.
+This section covers the building RC (Resistance-Capacitance) modeling and tuning capabilities of FlexGridPy.
 
 Overview
 --------

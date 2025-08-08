@@ -33,19 +33,22 @@ Contents
    
 .. toctree::
    :maxdepth: 2
-   :caption: HP & Building Modeling 
-
-   hp_modeling
-
-.. toctree::
-   :maxdepth: 2
    :caption: Active Distribution Grid
 
    active_distribution_grid
+   
+   .. toctree::
+   :maxdepth: 2
+   :caption: HP & Building Modeling 
+
+   hp_modeling
+   Thermodynamic_modeling
 
 .. toctree::
    :maxdepth: 2
    :caption: Ambience Dataset
+
+   
 
 .. toctree::
    :maxdepth: 2
