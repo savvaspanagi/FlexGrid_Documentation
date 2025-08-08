@@ -9,11 +9,11 @@ About FlexGridPy
 Welcome to the About section of the FlexGridPy documentation. Here you can find information about the project, its contributors, licensing, and how to get in touch.
 
 .. image:: ../Image/SPS_HD.png
-		:width: 18em
+		:width: 22em
 		:align: left
 
 .. image:: ../Image/eac.png
-		:width: 18em
+		:width: 14em
 		:align: right
 
 .. toctree::
