@@ -54,4 +54,4 @@ Contents
    :maxdepth: 2
    :caption: About FlexGridPy
 
-   about
+   About
