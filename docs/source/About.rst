@@ -1,7 +1,7 @@
 About FlexGridPy
 ===============
 
-.. image:: ../Image/SPS_HD.png
+.. image:: ../Image/FlexGrid.png
    :alt: FlexGridPy Logo
    :align: center
    :width: 300px
@@ -16,7 +16,7 @@ Welcome to the About section of FlexGridPy documentation. Here you can find info
 		:width: 18em
 		:align: left
 
-.. image:: ../Image/SPS_HD.png
+.. image:: ../Image/eac.png
 		:width: 22em
 		:align: right
 

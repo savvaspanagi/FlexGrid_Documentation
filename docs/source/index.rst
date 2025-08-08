@@ -52,6 +52,6 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: About FlexGridPy
+   :caption: About FlexGrid
 
    About
