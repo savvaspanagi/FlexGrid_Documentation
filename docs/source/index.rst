@@ -1,5 +1,5 @@
 Welcome to FlexGridPy's documentation!
-===================================
+======================================
 
 **FlexGridPy** is a Python library for researchers and engineers  
 working on the intelligent operation of power systems.  
@@ -30,28 +30,28 @@ Contents
    :caption: Getting Started
 
    usage
-   
+
 .. toctree::
    :maxdepth: 2
    :caption: Active Distribution Grid
 
    active_distribution_grid
-   
-   .. toctree::
+
+.. toctree::
    :maxdepth: 2
-   :caption: HP & Building Modeling 
+   :caption: HP & Building Modeling
 
    hp_modeling
-   Thermodynamic_modeling
+   thermodynamic_modeling
 
 .. toctree::
    :maxdepth: 2
    :caption: Ambience Dataset
 
-   
+   ambience_dataset
 
 .. toctree::
    :maxdepth: 2
    :caption: About FlexGridPy
 
-   About
+   about
