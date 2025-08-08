@@ -15,7 +15,6 @@ FlexGridPy is designed for **flexibility-aware modeling**, combining control, si
 It integrates seamlessly with common open-source tools (e.g. Pyomo, NumPy, Pandas, Matplotlib, PandaPower)  
 and supports scalable experiments for scientific publications, demo cases, and industrial applications.
 
-
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
@@ -27,7 +26,26 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
 
    usage
    api
+
+.. toctree::
+   :maxdepth: 2
+   :caption: HP Modeling & Building RC
+
+   hp_modeling
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Active Distribution Grid
+
+   active_distribution_grid
+
+.. toctree::
+   :maxdepth: 2
+   :caption: About FlexGridPy
+
    About

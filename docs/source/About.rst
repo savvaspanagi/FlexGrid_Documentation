@@ -1,35 +1,14 @@
-##########################
 About FlexGridPy
-##########################
+===============
 
-.. _installation:
+Welcome to the About section of FlexGridPy documentation. Here you can find information about the project, its contributors, licensing, and how to get in touch.
 
-Installation
-------------
+.. toctree::
+   :maxdepth: 2
+   :caption: About FlexGridPy
 
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   About/authors
+   About/changelog
+   About/license
+   About/contact
 
