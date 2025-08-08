@@ -4,8 +4,8 @@ Welcome to FlexGridPy's documentation!
 .. image:: ../Image/FlexGrid.png
    :alt: FlexGridPy Logo
    :align: center
-   :width: 300px
-   
+   :width: 300
+
 **FlexGridPy** is a Python library for researchers and engineers  
 working on the intelligent operation of power systems.  
 It provides modular tools for:
