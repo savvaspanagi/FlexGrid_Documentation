@@ -13,7 +13,7 @@ Welcome to the About section of the FlexGridPy documentation. Here you can find 
 		:align: left
 
 .. image:: ../Image/eac.png
-		:width: 23em
+		:width: 21em
 		:align: right
 
 .. toctree::
