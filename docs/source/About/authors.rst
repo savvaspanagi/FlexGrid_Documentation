@@ -1,15 +1,16 @@
 Authors
 =======
 
-FlexGridPy is developed and maintained by researchers and engineers at the Cyprus University of Technology.
+FlexGridPy is developed and maintained by researchers and engineers at the Electricity Authority of Cyprus (EAC) and the Cyprus University of Technology (CUT).
 
 Core Development Team
 --------------------
 
 **Savvas Panagi**
    - Lead Developer
-   - EAC / SPS-LAB
-   - Email: savvas.panagi@cut.ac.cy
+   - EAC Research and Development (R&D)
+   - Sunstainable Power System Lab (SPS-LAB)
+   - Email: savvas.panagi@cut.ac.cy / savvaspanagi@gmail.com
 
 Contributors
 ------------

@@ -10,18 +10,18 @@ integration with the electrical optimization model.
    :maxdepth: 2
    :caption: Building Modeling
 
-   building_modeling/overview
-   building_modeling/temperature_tuning
-   building_modeling/heating_power_tuning
-   building_modeling/simulation
-   building_modeling/heat_pump
-   building_modeling/weather_data
-   building_modeling/dataset_tools
+   overview
+   temperature_tuning
+   heating_power_tuning
+   simulation
+   heat_pump
+   weather_data
+   dataset_tools
 
 Quick Links
 -----------
 
-* :doc:`building_modeling/temperature_tuning` — Fit indoor temperature RC models
-* :doc:`building_modeling/heating_power_tuning` — Fit heating power models
-* :doc:`building_modeling/simulation` — Forward simulation after tuning
-* :doc:`building_modeling/heat_pump` — COP regression model
+* :doc:`temperature_tuning` — Fit indoor temperature RC models
+* :doc:`heating_power_tuning` — Fit heating power models
+* :doc:`simulation` — Forward simulation after tuning
+* :doc:`heat_pump` — COP regression model

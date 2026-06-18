@@ -3,7 +3,7 @@ Change Log
 
 All notable changes to FlexGridPy will be documented in this file.
 
-Version 1.0.0 (2025-01-XX)
+Version 1.0.0 (Initial Release)
 ---------------------------
 
 **Added**
@@ -23,11 +23,3 @@ Version 1.0.0 (2025-01-XX)
    - Comprehensive API documentation
    - Usage examples and tutorials
    - Installation and setup guides
-
-Version 0.9.0 (2024-XX-XX)
----------------------------
-
-**Development**
-   - Initial development phase
-   - Core framework implementation
-   - Basic functionality testing 

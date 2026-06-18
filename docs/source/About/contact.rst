@@ -44,7 +44,6 @@ We encourage contributions from the community! If you'd like to contribute to Fl
 3. Make your changes
 4. Submit a pull request
 
-
 Stay Updated
 ------------
 **GitHub:** (https://github.com/your-org/flexgridpy)

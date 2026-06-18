@@ -14,17 +14,17 @@ Two clearing modes are supported:
    :maxdepth: 2
    :caption: Market Models
 
-   market/overview
-   market/api
-   market/inputs
-   market/formulation
-   market/constraints
-   market/objective
+   overview
+   api
+   inputs
+   formulation
+   constraints
+   objective
 
 Quick Links
 -----------
 
-* :doc:`market/api` — :class:`MarketAPI` reference
-* :doc:`market/inputs` — Prepare offers, bids, and demand profiles
-* :doc:`market/formulation` — Build copperplate or DC-OPF market models
-* :doc:`market/constraints` — Generation limits and DC network constraints
+* :doc:`api` — :class:`MarketAPI` reference
+* :doc:`inputs` — Prepare offers, bids, and demand profiles
+* :doc:`formulation` — Build copperplate or DC-OPF market models
+* :doc:`constraints` — Generation limits and DC network constraints

@@ -8,10 +8,10 @@ data, primarily for electric vehicle (EV) behavior modeling.
    :maxdepth: 2
    :caption: Transportation Models
 
-   transportation/overview
-   transportation/probabilistic_sampling
+   overview
+   probabilistic_sampling
 
 Quick Links
 -----------
 
-* :doc:`transportation/probabilistic_sampling` — Truncated Student-t sampling for trip distances
+* :doc:`probabilistic_sampling` — Truncated Student-t sampling for trip distances

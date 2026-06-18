@@ -25,4 +25,3 @@ Welcome to the About section of the FlexGridPy documentation. Here you can find 
    About/license
    About/contact
 
-
