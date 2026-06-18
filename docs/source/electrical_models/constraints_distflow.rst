@@ -1,49 +1,28 @@
 DistFlow Constraints
 ====================
 
-DistFlow (without shunt) is the default convex OPF formulation for radial
-distribution networks. FlexGridPy implements the full set of active/reactive
-power flow, voltage drop, and branch current constraints, with both exact
-and SOCP relaxations.
+The DistFlow (without shunt) formulation is a convex OPF model for radial
+distribution networks. It uses squared voltage variables :math:`v_i = |V_i|^2` and
+squared branch current variables :math:`\ell_{ij} = |I_{ij}|^2`.
 
-Active Power Flow
------------------
+Recommended build order:
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_active_power_flow_df_wos_constraint
+1. ``initialize_voltage_square_variables``
+2. ``initialize_branch_square_variables``
+3. Active power balance → Reactive power balance → Voltage drop → Branch current
 
-Reactive Power Flow
--------------------
+.. toctree::
+   :maxdepth: 1
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_reactive_power_flow_df_wos_constraint
+   constraints_distflow/add_active_power_flow_df_wos
+   constraints_distflow/add_reactive_power_flow_df_wos
+   constraints_distflow/add_voltage_power_flow_df_wos
+   constraints_distflow/add_brunch_current_flow_df_wos_equal
+   constraints_distflow/add_brunch_current_flow_df_wos_SOCP
+   constraints_distflow/check_socp_exactness
 
-Voltage Drop
-------------
+Reference
+---------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_voltage_power_flow_df_wos_constraint
-
-Branch Current (Exact)
-----------------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_brunch_current_flow_df_wos_equal_constraint
-
-Branch Current (SOCP)
----------------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_brunch_current_flow_df_wos_SOCP_constraint
-
-SOCP Exactness Check
---------------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.check_socp_exactness
-
-Example
--------
-
-.. code-block:: python
-
-   mgr.initialize_voltage_square_variables()
-   mgr.initialize_branch_square_variables()
-   mgr.add_active_power_flow_df_wos_constraint()
-   mgr.add_reactive_power_flow_df_wos_constraint()
-   mgr.add_voltage_power_flow_df_wos_constraint()
-   mgr.add_brunch_current_flow_df_wos_SOCP_constraint()
+Based on the branch flow model for radial networks (DistFlow equations without
+shunt admittance).
