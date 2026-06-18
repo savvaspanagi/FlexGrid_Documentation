@@ -59,6 +59,7 @@ The Manager maintains four registries for inspecting the built model (Similar wi
 * ``parameter_registry`` — registered Pyomo parameters
 
 For viewing the registries names:
+
 * ``mgr.list_constraints()`` — registered Pyomo constraint groups
 * ``mgr.list_sets()`` — registered Pyomo sets
 * ``mgr.list_variables()`` — registered Pyomo variables
@@ -69,14 +70,11 @@ Sub-components
 
 On initialization, the Manager also creates:
 
-* ``mgr.anc_Vars`` — :class:`~flexgridpy.electrical_models.initializations.additional_data.AdditionalData`
+* ``mgr.anc_Vars`` — :class:`~flexgridpy.electrical_models.initializations.additional_data.AdditionalData` - 
 * ``mgr.market`` — :class:`~flexgridpy.market_models.manager_market.MarketAPI`
 * ``mgr.plot_fun`` — plotting utilities
-* ``mgr.results`` — result extraction utilities
+
+After problem solved, using manual function calls, the Manager also creates:
+
+* ``mgr.results`` — result DataFrame utilities
 * ``mgr.parameter_df`` — parameter DataFrame utilities
-
-See Also
---------
-
-* :doc:`electrical_models/index` — sets, parameters, variables, constraints
-* :doc:`market/index` — market clearing via ``mgr.market``
