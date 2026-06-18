@@ -59,10 +59,10 @@ The Manager maintains four registries for inspecting the built model (Similar wi
 * ``parameter_registry`` — registered Pyomo parameters
 
 For viewing the registries names:
-* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_sets()`
-* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_variables()`
-* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_parameters()`
-* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_constraints()`
+* ``mgr.list_constraints()`` — registered Pyomo constraint groups
+* ``mgr.list_sets()`` — registered Pyomo sets
+* ``mgr.list_variables()`` — registered Pyomo variables
+* ``mgr.list_parameters()`` — registered Pyomo parameters
 
 Sub-components
 --------------
