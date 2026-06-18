@@ -7,8 +7,7 @@ a pandapower ``net`` object and provides a unified API for electrical models,
 market clearing, and result handling.
 
 Although the Manager lives in ``flexgridpy.electrical_models``, it is documented
-separately because it orchestrates multiple modules — including
-:doc:`market/index` via ``mgr.market``.
+separately.
 
 Architecture
 ------------
@@ -24,6 +23,8 @@ Architecture
         ├── plot_fun      → result plotting
         ├── results       → variable → DataFrame export
         └── parameter_df  → parameter → DataFrame export
+        └── ...           → other components
+        
 
 Function
 --------
@@ -50,16 +51,18 @@ Example
 Registry Utilities
 ------------------
 
-The Manager maintains four registries for inspecting the built model:
+The Manager maintains four registries for inspecting the built model (Similar with any other optimization model):
 
 * ``constraint_registry`` — registered Pyomo constraint groups
 * ``set_registry`` — registered Pyomo sets
 * ``variable_registry`` — registered Pyomo variables
 * ``parameter_registry`` — registered Pyomo parameters
 
-Use :meth:`~flexgridpy.electrical_models.Manager.Manager.list_constraints`,
-:meth:`~flexgridpy.electrical_models.Manager.Manager.list_variables`, etc. to
-inspect the model after building.
+For viewing the registries names:
+* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_sets()`
+* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_variables()`
+* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_parameters()`
+* :meth:`~flexgridpy.electrical_models.Manager.Manager.list_constraints()`
 
 Sub-components
 --------------
