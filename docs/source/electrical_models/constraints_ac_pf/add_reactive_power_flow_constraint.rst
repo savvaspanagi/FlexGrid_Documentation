@@ -1,17 +1,23 @@
 add_reactive_power_flow_constraint
 ==================================
 
-Adds full AC reactive power flow constraints.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.full_ac_pf_constr.add_reactive_power_flow_constraint
+.. code-block:: python
+
+   add_reactive_power_flow_constraint(manager, qder_contr_var, qgrid_var, ev_ch_q_var, voltage_v_var, voltage_pa_var, name_prefix, q_hp_var=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.pf.full_ac_pf_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_reactive_power_flow_constraint
+.. code-block:: python
+
+   mgr.add_reactive_power_flow_constraint(...)
+
+Adds full AC reactive power flow constraints.
 
 Example
 -------

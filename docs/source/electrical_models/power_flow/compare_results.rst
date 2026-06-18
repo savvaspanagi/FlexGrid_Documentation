@@ -1,17 +1,23 @@
 compare_results
 ===============
 
-Compares OPF results against pandapower power flow.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.power_flow.compare_pf_vs_opf.compare_results
+.. code-block:: python
+
+   compare_results(df_opf, df_pf, tol=1e-06)
+
+**Module:** ``flexgridpy.electrical_models.power_flow.compare_pf_vs_opf``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.compare_results
+.. code-block:: python
+
+   mgr.compare_results(...)
+
+Compares OPF results against pandapower power flow.
 
 Example
 -------

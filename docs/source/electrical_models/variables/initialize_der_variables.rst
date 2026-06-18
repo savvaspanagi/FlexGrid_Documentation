@@ -1,19 +1,27 @@
 initialize_der_variables
 ========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_der_var.initialize_der_variables
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_der_var.initialize_der_stochastic_variables
+   initialize_der_variables(manager, power_control_name_prefix, power_curtail_prefix, reactive_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_der_var``
+
+.. code-block:: python
+
+   initialize_der_stochastic_variables(manager, power_control_name_prefix, power_curtail_prefix, reactive_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_der_var``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_der_variables
+.. code-block:: python
+
+   mgr.initialize_der_variables(...)
 
 Description
 -----------
@@ -28,8 +36,6 @@ Variables Created
 
    0 \leq P_{j,t}^\text{DER} \leq \overline{P}_{j,t}^\text{DER}, \quad
    0 \leq Q_{j,t}^\text{DER} \leq \overline{Q}_{j,t}^\text{DER}
-
-
 
 
 See Also

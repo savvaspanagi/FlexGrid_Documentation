@@ -1,17 +1,21 @@
 load_profile_param
 ==================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.load_param_fun.load_profile_param
+.. code-block:: python
+
+   load_profile_param(manager, profiles, load_p_name_prefix, load_q_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.load_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.load_profile_param
+.. code-block:: python
+
+   mgr.load_profile_param(...)
 
 Description
 -----------
@@ -56,7 +60,6 @@ Validation
 * ``profiles`` must be a pandas DataFrame or Series.
 * Time index must match ``model.STimes`` exactly.
 * If multi-column, columns must equal ``model.SLoadbuses``.
-
 
 
 Example

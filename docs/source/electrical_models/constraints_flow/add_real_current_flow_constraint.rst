@@ -1,17 +1,23 @@
 add_real_current_flow_constraint
 ================================
 
-Adds real current flow constraints.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.flow.current_constr.add_real_current_flow_constraint
+.. code-block:: python
+
+   add_real_current_flow_constraint(manager, model_set, current_flow_constr_name_prefix, active_curr_var, voltage_var, phase_angle_var)
+
+**Module:** ``flexgridpy.electrical_models.constraints.flow.current_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_real_current_flow_constraint
+.. code-block:: python
+
+   mgr.add_real_current_flow_constraint(...)
+
+Adds real current flow constraints.
 
 Example
 -------

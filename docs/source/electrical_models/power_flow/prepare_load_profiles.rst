@@ -1,17 +1,23 @@
 prepare_load_profiles
 =====================
 
-Prepares load profiles from OPF results.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.power_flow.load_input.prepare_load_profiles
+.. code-block:: python
+
+   prepare_load_profiles(manager)
+
+**Module:** ``flexgridpy.electrical_models.power_flow.load_input``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.prepare_load_profiles
+.. code-block:: python
+
+   mgr.prepare_load_profiles(...)
+
+Prepares load profiles from OPF results.
 
 Example
 -------

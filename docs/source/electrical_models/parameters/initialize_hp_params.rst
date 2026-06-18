@@ -1,21 +1,33 @@
 initialize_hp_params
 ====================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_params
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.hp_flexibility_params
+   initialize_hp_params(manager, Tout_param, COP_prefix_name, min_thermal_power_prefix_name, max_thermal_power_prefix_name, min_temp_preference_prefix_name, max_temp_preference_prefix_name)
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_stochastic_params
+**Module:** ``flexgridpy.electrical_models.parameters.hp_param_fun``
+
+.. code-block:: python
+
+   hp_flexibility_params(manager, Tin, Te, Tout, Qsol, min_temp_flexibility_prefix_name, max_temp_flexibility_prefix_name, min_thermal_flexibility_prefix_name, max_thermal_flexibility_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.hp_param_fun``
+
+.. code-block:: python
+
+   initialize_hp_stochastic_params(manager, hp_scenario_dict, Tout_param, COP_prefix_name, min_thermal_power_prefix_name, max_thermal_power_prefix_name, min_temp_preference_prefix_name, max_temp_preference_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.hp_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_hp_params
+.. code-block:: python
+
+   mgr.initialize_hp_params(...)
 
 Description
 -----------
@@ -34,10 +46,6 @@ Flexibility Parameters
 
 Use :func:`~flexgridpy.electrical_models.parameters.hp_param_fun.hp_flexibility_params`
 to additionally register upward/downward thermal flexibility bounds.
-
-
-
-
 
 
 See Also

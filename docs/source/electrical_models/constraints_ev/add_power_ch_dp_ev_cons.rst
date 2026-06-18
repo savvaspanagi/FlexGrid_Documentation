@@ -1,17 +1,21 @@
 add_power_ch_dp_ev_cons
 ========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_power_dp.add_power_ch_dp_ev_cons
+.. code-block:: python
+
+   add_power_ch_dp_ev_cons(manager, name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_power_dp``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_ch_dp_ev_cons
+.. code-block:: python
+
+   mgr.add_power_ch_dp_ev_cons(...)
 
 Description
 -----------

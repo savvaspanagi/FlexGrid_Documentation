@@ -1,21 +1,33 @@
 initialize_tank_params
 ========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.tank_param_fun.initialize_tank_params
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.tank_param_fun.tank_flexibility_params
+   initialize_tank_params(manager, min_temp_preference_prefix_name, max_temp_preference_prefix_name)
 
-.. autofunction:: flexgridpy.electrical_models.parameters.dhw_profile_param.dhw_profile_param
+**Module:** ``flexgridpy.electrical_models.parameters.tank_param_fun``
+
+.. code-block:: python
+
+   tank_flexibility_params(manager, Ttank, Q_demand, Tsurr, min_thermal_preference_prefix_name, max_thermal_preference_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.tank_param_fun``
+
+.. code-block:: python
+
+   dhw_profile_param(manager, dhw_profile_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.dhw_profile_param``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_tank_params
+.. code-block:: python
+
+   mgr.initialize_tank_params(...)
 
 Description
 -----------
@@ -28,10 +40,6 @@ Flexibility Parameters
 
 Use :func:`~flexgridpy.electrical_models.parameters.tank_param_fun.tank_flexibility_params`
 for upward/downward thermal flexibility bounds of the tank.
-
-
-
-
 
 
 See Also

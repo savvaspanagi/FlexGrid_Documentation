@@ -1,17 +1,23 @@
 add_line_flow_amplitude_losses_constraint
 =========================================
 
-Adds line amplitude loss constraints.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.line.line_constr.add_line_flow_amplitude_losses_constraint
+.. code-block:: python
+
+   add_line_flow_amplitude_losses_constraint(manager, resistance_param, line_set, current_var, losses_var, line_flow_losses_con_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.line.line_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_line_flow_amplitude_losses_constraint
+.. code-block:: python
+
+   mgr.add_line_flow_amplitude_losses_constraint(...)
+
+Adds line amplitude loss constraints.
 
 Example
 -------

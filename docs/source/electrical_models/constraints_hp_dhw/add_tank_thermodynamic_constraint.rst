@@ -1,17 +1,21 @@
 add_tank_thermodynamic_constraint
 ==================================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.dhw.stirred_tank_thermodynamic_constr.add_tank_thermodynamic_constraint
+.. code-block:: python
+
+   add_tank_thermodynamic_constraint(manager, Ttank, Q_tank, Tsurr, Q_demand, Q_dynamic_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.constraints.dhw.stirred_tank_thermodynamic_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_tank_thermodynamic_constraint
+.. code-block:: python
+
+   mgr.add_tank_thermodynamic_constraint(...)
 
 Description
 -----------
@@ -55,7 +59,6 @@ Arguments
      - DHW demand profile parameter
    * - ``Q_dynamic_prefix_name``
      - Constraint group name
-
 
 
 Example

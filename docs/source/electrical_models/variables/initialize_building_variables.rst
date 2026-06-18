@@ -1,19 +1,27 @@
 initialize_building_variables
 ==============================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_variables
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_flex_variables
+   initialize_building_variables(manager, model_type, Qhp_name_prefix, Tin_name_prefix, min_temp_preference_param, max_temp_preference_param, Te_name_prefix=None, max_thermal_power_param=None)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_building_var``
+
+.. code-block:: python
+
+   initialize_building_flex_variables(manager, model_type, Qhp_upward_name_prefix, Qhp_downward_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_building_var``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_building_variables
+.. code-block:: python
+
+   mgr.initialize_building_variables(...)
 
 Description
 -----------
@@ -27,8 +35,6 @@ Variables Created
 * ``Tin[i, t]`` — indoor air temperature (°C)
 * ``Te[i, t]`` — envelope / wall temperature (°C)
 * Flexibility variables for upward/downward thermal flexibility (optional)
-
-
 
 
 See Also

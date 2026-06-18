@@ -1,19 +1,27 @@
 enviroment_profile_param
 ========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_param
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_stochastic_param
+   enviroment_profile_param(manager, data, outdoor_temeprature_name_prefix, solar_irradiance_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.enviroment_param``
+
+.. code-block:: python
+
+   enviroment_profile_stochastic_param(manager, temp_data, ghi_data, outdoor_temeprature_name_prefix, solar_irradiance_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.enviroment_param``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.enviroment_profile_param
+.. code-block:: python
+
+   mgr.enviroment_profile_param(...)
 
 Description
 -----------
@@ -37,8 +45,6 @@ Arguments
      - Solar irradiance profile aligned with ``STimes``
    * - ``tout_prefix``, ``ghi_prefix``
      - Registered parameter names
-
-
 
 
 See Also

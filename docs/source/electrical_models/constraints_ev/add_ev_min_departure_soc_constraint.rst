@@ -1,21 +1,33 @@
 add_ev_min_departure_soc_constraint
 ====================================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons.add_ev_min_departure_soc_constraint
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons.add_ev_min_custom_departure_soc_constraint
+   add_ev_min_departure_soc_constraint(manager, name_prefix)
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons.add_ev_min_custom_departure_soc_stochastic_constraint
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons``
+
+.. code-block:: python
+
+   add_ev_min_custom_departure_soc_constraint(manager, custom_min_soc_percentage, name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons``
+
+.. code-block:: python
+
+   add_ev_min_custom_departure_soc_stochastic_constraint(manager, custom_min_soc_percentage, name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_min_soc_cons``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_ev_min_departure_soc_constraint
+.. code-block:: python
+
+   mgr.add_ev_min_departure_soc_constraint(...)
 
 Description
 -----------

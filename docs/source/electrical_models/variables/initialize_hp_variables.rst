@@ -1,21 +1,33 @@
 initialize_hp_variables
 =======================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_hp_var.initialize_hp_variables
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_hp_var.initialize_gamma_valve_variable
+   initialize_hp_variables(manager, p_name_prefix, q_name_prefix)
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_hp_var.initialize_hp_flex_variables
+**Module:** ``flexgridpy.electrical_models.variables.def_hp_var``
+
+.. code-block:: python
+
+   initialize_gamma_valve_variable(manager, set, gamma_valve_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_hp_var``
+
+.. code-block:: python
+
+   initialize_hp_flex_variables(manager, p_upward_name_prefix, p_downward_name_prefix, q_upward_name_prefix, q_downward_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_hp_var``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_hp_variables
+.. code-block:: python
+
+   mgr.initialize_hp_variables(...)
 
 Description
 -----------
@@ -29,9 +41,6 @@ Variables Created
 * ``Qhp[i, t]`` — thermal power output (kW)
 * ``php[i, t]`` — electrical power consumption (p.u.)
 * ``gamma_valve[i, t]`` — mode selector (0 = SH, 1 = DHW)
-
-
-
 
 
 See Also

@@ -1,17 +1,21 @@
 initialize_ev_params
 ====================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_param_fun.initialize_ev_params
+.. code-block:: python
+
+   initialize_ev_params(manager, min_ch_prefix_name, max_ch_prefix_name, EV_init_SOC_prefix_name, EV_end_SOC_prefix_name, EV_min_SOC_prefix_name, EV_max_SOC_prefix_name, EV_Ene_Capa_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.ev_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_params
+.. code-block:: python
+
+   mgr.initialize_ev_params(...)
 
 Description
 -----------
@@ -56,7 +60,6 @@ Arguments
 
 All seven prefix arguments are **required** strings naming the registered Pyomo
 ``Param`` objects.
-
 
 
 Example

@@ -1,17 +1,21 @@
 add_active_power_flow_bfm
 ==========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_active_power_flow_bfm
+.. code-block:: python
+
+   add_active_power_flow_bfm(manager, pder_contrl_var, p_line_var, p_line_reverse_var, p_transformer_var, p_transformer_reverse_var, pgrid_var, ev_ch_p_var, name_prefix, p_hp_var=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_bfm
+.. code-block:: python
+
+   mgr.add_active_power_flow_bfm(...)
 
 Description
 -----------

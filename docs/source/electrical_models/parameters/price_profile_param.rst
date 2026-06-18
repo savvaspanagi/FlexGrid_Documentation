@@ -1,19 +1,27 @@
 price_profile_param
 ===================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_param
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_stochastic_param
+   price_profile_param(manager, data, price_profile_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.price_profile_param``
+
+.. code-block:: python
+
+   price_profile_stochastic_param(manager, data, price_profile_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.price_profile_param``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.price_profile_param
+.. code-block:: python
+
+   mgr.price_profile_param(...)
 
 Description
 -----------

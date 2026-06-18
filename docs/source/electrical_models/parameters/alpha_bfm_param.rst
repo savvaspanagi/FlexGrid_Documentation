@@ -1,17 +1,21 @@
 alpha_bfm_param
 ===============
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.bfm_alpha_param_fun.alpha_bfm_param
+.. code-block:: python
+
+   alpha_bfm_param(manager, alpha_line_real_prefix, alpha_line_imag_prefix, alpha_transformer_real_prefix, alpha_transformer_imag_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.bfm_alpha_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.alpha_bfm_param
+.. code-block:: python
+
+   mgr.alpha_bfm_param(...)
 
 Description
 -----------

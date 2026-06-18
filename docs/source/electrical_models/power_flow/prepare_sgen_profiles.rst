@@ -1,17 +1,23 @@
 prepare_sgen_profiles
 =====================
 
-Prepares generator profiles from OPF results.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.power_flow.sgen_input.prepare_sgen_profiles
+.. code-block:: python
+
+   prepare_sgen_profiles(manager)
+
+**Module:** ``flexgridpy.electrical_models.power_flow.sgen_input``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.prepare_sgen_profiles
+.. code-block:: python
+
+   mgr.prepare_sgen_profiles(...)
+
+Prepares generator profiles from OPF results.
 
 Example
 -------

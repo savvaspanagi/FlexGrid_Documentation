@@ -1,17 +1,21 @@
 add_stochastic_set
 ==================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.sets.stochastic_set.add_stochastic_set
+.. code-block:: python
+
+   add_stochastic_set(manager, stochastic_set_name_prefix, stochastic_set_values)
+
+**Module:** ``flexgridpy.electrical_models.sets.stochastic_set``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_stochastic_set
+.. code-block:: python
+
+   mgr.add_stochastic_set(...)
 
 Description
 -----------
@@ -42,7 +46,6 @@ Parameters
      - Name under which the set is registered (typically ``"SScenarios"``)
    * - ``stochastic_set_values`` (int)
      - Number of scenarios :math:`N_s`
-
 
 
 Example

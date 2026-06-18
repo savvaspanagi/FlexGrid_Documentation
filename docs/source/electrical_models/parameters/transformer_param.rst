@@ -1,19 +1,27 @@
 transformer_param
 =================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_param
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_nominal_power_param
+   transformer_param(manager, resist_prefix, react_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.transformer_param_fun``
+
+.. code-block:: python
+
+   transformer_nominal_power_param(manager, nominal_power_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.transformer_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.transformer_param
+.. code-block:: python
+
+   mgr.transformer_param(...)
 
 Description
 -----------

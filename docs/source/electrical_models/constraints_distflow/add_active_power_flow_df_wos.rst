@@ -1,17 +1,21 @@
 add_active_power_flow_df_wos_constraint
 ======================================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_active_power_flow_df_wos_constraint
+.. code-block:: python
+
+   add_active_power_flow_df_wos_constraint(manager, pder_contrl_var, pline_var, p_transformer_var, pgrid_var, line_current_var, transformer_current_var, name_prefix, ev_ch_p_var=None, p_hp_var=None, p_offer_var=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_df_wos_constraint
+.. code-block:: python
+
+   mgr.add_active_power_flow_df_wos_constraint(...)
 
 Description
 -----------
@@ -66,7 +70,6 @@ Arguments
      - Heat pump active power
    * - ``p_offer_var`` (optional)
      - Market generator offer dispatch
-
 
 
 Example

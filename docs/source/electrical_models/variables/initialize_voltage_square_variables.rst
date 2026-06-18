@@ -1,19 +1,27 @@
 initialize_voltage_square_variables
 ====================================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_voltage_var.initialize_voltage_square_variables
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_voltage_var.initialize_voltage_square_stochastic_variables
+   initialize_voltage_square_variables(manager, voltage_name_prefix=None)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_voltage_var``
+
+.. code-block:: python
+
+   initialize_voltage_square_stochastic_variables(manager, voltage_name_prefix=None)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_voltage_var``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_voltage_square_variables
+.. code-block:: python
+
+   mgr.initialize_voltage_square_variables(...)
 
 Description
 -----------
@@ -41,8 +49,6 @@ Arguments
      - Description
    * - ``voltage_name_prefix`` (str)
      - Registered variable name (e.g. ``"voltage"``)
-
-
 
 
 See Also

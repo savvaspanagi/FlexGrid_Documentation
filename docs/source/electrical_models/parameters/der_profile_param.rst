@@ -1,19 +1,27 @@
 der_profile_param
 =================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_param
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_stochastic_param
+   der_profile_param(manager, profiles, unctr_DER_active_prefix, unctr_DER_reactive_prefix, cntr_DER_active_prefix, cntr_DER_reactive_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.der_param_fun``
+
+.. code-block:: python
+
+   der_profile_stochastic_param(manager, profiles, unctr_DER_active_prefix, unctr_DER_reactive_prefix, cntr_DER_active_prefix, cntr_DER_reactive_prefix)
+
+**Module:** ``flexgridpy.electrical_models.parameters.der_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.der_profile_param
+.. code-block:: python
+
+   mgr.der_profile_param(...)
 
 Description
 -----------

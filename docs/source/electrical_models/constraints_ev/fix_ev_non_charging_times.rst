@@ -1,19 +1,27 @@
 fix_ev_non_charging_times
 ==========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_avoid_cha_unconn_cons.fix_ev_non_charging_times
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_avoid_cha_unconn_cons.fix_ev_non_charging_times_stochastic
+   fix_ev_non_charging_times(manager, model_ev_ch=None, model_ev_flex_up=None, model_ev_flex_down=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_avoid_cha_unconn_cons``
+
+.. code-block:: python
+
+   fix_ev_non_charging_times_stochastic(manager, model_stochastic_pev_ch=None, model_stochastic_qev_ch=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.ev.ev_avoid_cha_unconn_cons``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.fix_ev_non_charging_times
+.. code-block:: python
+
+   mgr.fix_ev_non_charging_times(...)
 
 Description
 -----------

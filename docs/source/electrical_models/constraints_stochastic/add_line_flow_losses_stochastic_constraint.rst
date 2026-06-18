@@ -1,17 +1,23 @@
 add_line_flow_losses_stochastic_constraint
 ==========================================
 
-Stochastic line flow loss constraints.
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.line.line_constr.add_line_flow_losses_stochastic_constraint
+.. code-block:: python
+
+   add_line_flow_losses_stochastic_constraint(manager, current, line_flow_losses_con_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.line.line_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_line_flow_losses_stochastic_constraint
+.. code-block:: python
+
+   mgr.add_line_flow_losses_stochastic_constraint(...)
+
+Stochastic line flow loss constraints.
 
 Example
 -------

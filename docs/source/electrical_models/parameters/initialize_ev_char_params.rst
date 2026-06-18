@@ -1,19 +1,27 @@
 initialize_ev_char_params
 =========================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_params
+.. code-block:: python
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_stochastic_params
+   initialize_ev_char_params(manager, ev_arrival_prefix_name, ev_departure_prefix_name, ev_distance_prefix_name, EV_SoC_min_departure_prefix_name, ev_trip_energy_needs_prefix_name, ev_availability_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.ev_char_param_fun``
+
+.. code-block:: python
+
+   initialize_ev_char_stochastic_params(manager, scenario_dict, ev_initial_SOC_prefix_name, ev_arrival_prefix_name, ev_departure_prefix_name, ev_distance_prefix_name, ev_trip_energy_needs_prefix_name, EV_SoC_min_departure_prefix_name, ev_availability_prefix_name)
+
+**Module:** ``flexgridpy.electrical_models.parameters.ev_char_param_fun``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_char_params
+.. code-block:: python
+
+   mgr.initialize_ev_char_params(...)
 
 Description
 -----------
@@ -51,8 +59,6 @@ At each departure event :math:`x`, the SoC is reduced by the trip energy need:
 .. math::
 
    E_{i,t_\text{arr}-1} = E_{i,t_\text{arr}-2} - E_{i,x}^\text{trip}
-
-
 
 
 See Also

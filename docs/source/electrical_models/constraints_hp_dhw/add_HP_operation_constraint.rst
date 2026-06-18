@@ -1,17 +1,21 @@
 add_HP_operation_constraint
 ============================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.hp.hp_operation_constr.add_HP_operation_constraint
+.. code-block:: python
+
+   add_HP_operation_constraint(manager, Qhp, php, qhp, COP_param, php_operation_prefix_name, qhp_operation_prefix_name, Qtank=None)
+
+**Module:** ``flexgridpy.electrical_models.constraints.hp.hp_operation_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_HP_operation_constraint
+.. code-block:: python
+
+   mgr.add_HP_operation_constraint(...)
 
 Description
 -----------
@@ -49,7 +53,6 @@ Arguments
      - Constraint group names
    * - ``Qtank`` (optional)
      - Tank thermal power for DHW mode
-
 
 
 Example

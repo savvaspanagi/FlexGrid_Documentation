@@ -1,17 +1,21 @@
 initialize_ev_flexibility_variables
 ====================================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_ev_flex.initialize_ev_flexibility_variables
+.. code-block:: python
+
+   initialize_ev_flexibility_variables(manager, pup_flex_ev_name_prefix, pdown_flex_ev_name_prefix)
+
+**Module:** ``flexgridpy.electrical_models.variables.def_ev_flex``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_flexibility_variables
+.. code-block:: python
+
+   mgr.initialize_ev_flexibility_variables(...)
 
 Description
 -----------
@@ -30,7 +34,6 @@ Physical Meaning
 
 * **Upward flexibility**: additional charging capacity the EV can offer to the grid
 * **Downward flexibility**: reduction in charging the EV can provide
-
 
 
 See Also

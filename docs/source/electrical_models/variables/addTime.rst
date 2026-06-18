@@ -1,17 +1,21 @@
 addTime
 =======
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.variables.time_manager.addTime
+.. code-block:: python
+
+   addTime(manager, timeframe, time_interval)
+
+**Module:** ``flexgridpy.electrical_models.variables.time_manager``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.addTime
+.. code-block:: python
+
+   mgr.addTime(...)
 
 Description
 -----------
@@ -45,7 +49,6 @@ Derived Quantities
    \Delta t = \frac{\text{time\_interval}}{60} \quad \text{(hours)}
 
 The value ``manager.delta`` is used in SoC and thermal dynamics constraints.
-
 
 
 Example

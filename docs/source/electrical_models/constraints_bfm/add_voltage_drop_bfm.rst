@@ -1,17 +1,21 @@
 add_voltage_drop_bfm
 =====================
 
-
-
 Function
 --------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_voltage_drop_bfm
+.. code-block:: python
+
+   add_voltage_drop_bfm(manager, line_set, line_reverse_set, voltage_var, p_line_var, p_reverse_line_par, q_line_var, q_reverse_line_par, current_line_var, curret_reverse_line_var, resistance_param, reactance_param, alpha_real, alpha_imag, name_prefix, name_reverse_prefix)
+
+**Module:** ``flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr``
 
 Manager Method
 --------------
 
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_voltage_drop_bfm
+.. code-block:: python
+
+   mgr.add_voltage_drop_bfm(...)
 
 Description
 -----------
@@ -56,7 +60,6 @@ Arguments
      - BFM :math:`\alpha` coefficients
    * - ``name_prefix``, ``name_reverse_prefix``
      - Constraint group names
-
 
 
 See Also
