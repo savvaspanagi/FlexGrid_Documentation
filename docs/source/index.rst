@@ -6,22 +6,24 @@ Welcome to FlexGridPy's documentation!
    :align: center
    :width: 300
 
-**FlexGridPy** is a Python library for researchers and engineers  
-working on the intelligent operation of power systems.  
+**FlexGridPy** is a Python library for researchers and engineers
+working on the intelligent operation of power systems.
 It provides modular tools for:
 
-- building and tuning grey-box thermal models for residential buildings and heat pumps,
-- optimizing electric vehicle (EV) and photovoltaic (PV) integration under flexibility constraints,
 - modeling and solving convex and non-convex Optimal Power Flow (OPF) problems,
-- extracting, transforming, and forecasting environmental and operational data.
+- optimizing electric vehicle (EV) and distributed energy resource (DER) integration,
+- building and tuning grey-box thermal models for residential buildings and heat pumps,
+- electricity market clearing (copperplate and DC-OPF),
+- probabilistic transportation data generation for EV studies.
 
-FlexGridPy is designed for **flexibility-aware modeling**, combining control, simulation, and optimization in a unified and extensible framework.
+FlexGridPy is designed for **flexibility-aware modeling**, combining control,
+simulation, and optimization in a unified and extensible framework.
 
-It integrates seamlessly with common open-source tools (e.g. Pyomo, NumPy, Pandas, Matplotlib, PandaPower)  
-and supports scalable experiments for scientific publications, demo cases, and industrial applications.
+It integrates seamlessly with common open-source tools (Pyomo, NumPy, Pandas,
+Matplotlib, pandapower) and supports scalable experiments for scientific
+publications, demo cases, and industrial applications.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`usage` section for installation and a minimal example.
 
 .. note::
 
@@ -38,25 +40,30 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Active Distribution Grid
+   :caption: Electrical Models
 
-   active_distribution_grid
-
-.. toctree::
-   :maxdepth: 2
-   :caption: HP & Building Modeling
-
-   hp_modeling
-   thermodynamic_modeling
+   electrical_models/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Ambience Dataset
+   :caption: Market
 
-   ambience_dataset
+   market/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: About FlexGrid
+   :caption: Building Modeling
+
+   building_modeling/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Transportation
+
+   transportation/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: About FlexGridPy
 
    About

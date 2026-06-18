@@ -11,3 +11,12 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
+
+# Note: For Read the Docs, add FlexGridPy as a git submodule or pip-install
+# from your repository so autodoc can import flexgridpy modules.
+# Example:
+# python:
+#   install:
+#     - requirements: docs/requirements.txt
+#     - path: FlexGridPy
+#       method: pip
