@@ -2,13 +2,13 @@ Electrical Models
 =================
 
 FlexGridPy builds a **Pyomo optimization problem** on top of a
-`pandapower <https://pandapower.readthedocs.io>`_ network via the
-:class:`~flexgridpy.electrical_models.Manager.Manager` class.
+`pandapower <https://pandapower.readthedocs.io>`_ network. All electrical
+functions are called through the :doc:`/manager` class.
 
-Each function has its own page in the sidebar, with signature, parameters, equations, and examples.
+Each function has its own page in the sidebar, with signature, parameters,
+equations, and examples.
 
 .. rubric:: Recommended Workflow
-
 
 .. code-block:: python
 
@@ -24,7 +24,6 @@ Each function has its own page in the sidebar, with signature, parameters, equat
 .. toctree::
    :maxdepth: 2
 
-   manager
    sets
    parameters
    variables

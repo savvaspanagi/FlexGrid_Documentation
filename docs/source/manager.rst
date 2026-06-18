@@ -1,13 +1,32 @@
 Manager
 =======
 
-The :class:`~flexgridpy.electrical_models.Manager.Manager` class is the main entry
-point for building and solving electrical optimization problems. It wraps a
-pandapower ``net`` object and exposes methods to register Pyomo sets, parameters,
-variables, and constraints.
+The :class:`~flexgridpy.electrical_models.Manager.Manager` class is the **central
+entry point** for building and solving FlexGridPy optimization problems. It wraps
+a pandapower ``net`` object and provides a unified API for electrical models,
+market clearing, and result handling.
 
-Create Function
----------------
+Although the Manager lives in ``flexgridpy.electrical_models``, it is documented
+separately because it orchestrates multiple modules — including
+:doc:`market/index` via ``mgr.market``.
+
+Architecture
+------------
+
+.. code-block:: text
+
+   pandapower net
+        │
+        ▼
+   Manager(net)
+        ├── anc_Vars      → network DataFrames (per-unit)
+        ├── market        → MarketAPI (copperplate / DC-OPF market)
+        ├── plot_fun      → result plotting
+        ├── results       → variable → DataFrame export
+        └── parameter_df  → parameter → DataFrame export
+
+Function
+--------
 
 .. autoclass:: flexgridpy.electrical_models.Manager.Manager
    :members:
@@ -26,7 +45,7 @@ Example
    net = pp.networks.case33bw()
    mgr = Manager(net)
    mgr.initialize_sets()
-   mgr.line_param()
+   mgr.line_param(Y_bus, ...)
 
 Registry Utilities
 ------------------
@@ -52,3 +71,9 @@ On initialization, the Manager also creates:
 * ``mgr.plot_fun`` — plotting utilities
 * ``mgr.results`` — result extraction utilities
 * ``mgr.parameter_df`` — parameter DataFrame utilities
+
+See Also
+--------
+
+* :doc:`electrical_models/index` — sets, parameters, variables, constraints
+* :doc:`market/index` — market clearing via ``mgr.market``

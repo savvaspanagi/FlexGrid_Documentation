@@ -27,7 +27,7 @@ Minimal Example
 ---------------
 
 FlexGridPy builds a Pyomo optimization model on top of a pandapower network.
-The central entry point is the :class:`~flexgridpy.electrical_models.Manager.Manager` class.
+The central entry point is :doc:`manager` (:class:`~flexgridpy.electrical_models.Manager.Manager`).
 
 .. code-block:: python
 
@@ -55,11 +55,11 @@ Workflow
 A typical FlexGridPy optimization workflow follows these steps:
 
 1. **Create or load** a pandapower ``net`` object.
-2. **Initialize** :class:`~flexgridpy.electrical_models.Manager.Manager`.
+2. **Initialize** :doc:`manager`.
 3. **Register sets** with :meth:`~flexgridpy.electrical_models.Manager.Manager.initialize_sets`.
 4. **Add parameters** (lines, loads, DER, EV, HP, prices, …).
 5. **Define variables** (voltages, branch flows, flex assets, …).
 6. **Add constraints** (DistFlow, BFM, EV SoC, building thermodynamics, …).
 7. **Set objective** and **solve** with a Pyomo-compatible solver (e.g. IPOPT, Gurobi).
 
-See :doc:`electrical_models/index` for the full API reference.
+See :doc:`manager` and :doc:`electrical_models/index` for the full API reference.
