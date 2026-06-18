@@ -8,6 +8,7 @@ FlexGridPy builds a **Pyomo optimization problem** on top of a
 Each function has its own page in the sidebar (like pandapower elements),
 with signature, parameters, equations, and examples.
 
+.. rubric:: Recommended Workflow
 
 
 .. code-block:: python
