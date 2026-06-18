@@ -1,6 +1,20 @@
 transformer_param
 =================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_param
+
+.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_nominal_power_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.transformer_param
+
 Description
 -----------
 
@@ -23,17 +37,3 @@ Parameters Registered
      - :math:`R_{ij}^T` — transformer resistance (p.u.)
    * - ``react_prefix``
      - :math:`X_{ij}^T` — transformer reactance (p.u.)
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_param
-
-.. autofunction:: flexgridpy.electrical_models.parameters.transformer_param_fun.transformer_nominal_power_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.transformer_param
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.transformer_nominal_power_param

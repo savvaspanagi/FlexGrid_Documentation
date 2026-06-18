@@ -1,6 +1,20 @@
 der_profile_param
 =================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_param
+
+.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_stochastic_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.der_profile_param
+
 Description
 -----------
 
@@ -35,15 +49,3 @@ Arguments
      - Prefix names for controllable DER limits
    * - ``unc_pder_prefix``, ``unc_qder_prefix``
      - Prefix names for uncontrollable RES injection
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_param
-
-.. autofunction:: flexgridpy.electrical_models.parameters.der_param_fun.der_profile_stochastic_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.der_profile_param

@@ -62,5 +62,12 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
+html_theme_options = {
+    'navigation_depth': 5,
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'includehidden': True,
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

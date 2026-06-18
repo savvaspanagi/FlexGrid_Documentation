@@ -1,6 +1,18 @@
 addTime
 =======
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.variables.time_manager.addTime
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.addTime
+
 Description
 -----------
 
@@ -34,15 +46,7 @@ Derived Quantities
 
 The value ``manager.delta`` is used in SoC and thermal dynamics constraints.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.variables.time_manager.addTime
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.addTime
 
 Example
 -------

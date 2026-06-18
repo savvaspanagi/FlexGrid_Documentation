@@ -1,6 +1,18 @@
 add_active_power_flow_bfm
 ==========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_active_power_flow_bfm
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_bfm
+
 Description
 -----------
 
@@ -40,13 +52,3 @@ Arguments
      - Heat pump electrical power
    * - ``name_prefix`` (str)
      - Constraint group name
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_active_power_flow_bfm
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_bfm

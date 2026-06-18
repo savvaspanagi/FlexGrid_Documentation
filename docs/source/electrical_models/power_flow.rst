@@ -1,35 +1,14 @@
 Power Flow Utilities
 ====================
 
-Utilities for comparing optimization results against pandapower power flow and
-for preparing input profiles from solved OPF results.
+Utilities for comparing OPF results against pandapower power flow and preparing
+input profiles from solved optimization results.
 
-Compare PF vs OPF
------------------
+.. toctree::
+   :maxdepth: 1
 
-.. autofunction:: flexgridpy.electrical_models.power_flow.compare_pf_vs_opf.compare_results
-
-Generator Profiles
-------------------
-
-.. autofunction:: flexgridpy.electrical_models.power_flow.sgen_input.prepare_sgen_profiles
-
-.. autofunction:: flexgridpy.electrical_models.power_flow.sgen_input.prepare_custom_sgen_profiles
-
-Load Profiles
--------------
-
-.. autofunction:: flexgridpy.electrical_models.power_flow.load_input.prepare_load_profiles
-
-.. autofunction:: flexgridpy.electrical_models.power_flow.load_input.prepare_custom_load_profiles
-
-Example
--------
-
-.. code-block:: python
-
-   # After solving the OPF model:
-   df_opf = mgr.results.wrapper_var_results()
-   pp.runpp(net)
-   df_pf = net.res_bus
-   mgr.compare_results(df_opf, df_pf, tol=1e-4)
+   power_flow/compare_results
+   power_flow/prepare_sgen_profiles
+   power_flow/prepare_custom_sgen_profiles
+   power_flow/prepare_load_profiles
+   power_flow/prepare_custom_load_profiles

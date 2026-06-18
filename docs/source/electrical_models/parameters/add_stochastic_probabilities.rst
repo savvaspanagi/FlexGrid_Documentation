@@ -1,6 +1,18 @@
 add_stochastic_probabilities
 ============================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.stochastic_param.add_stochastic_probabilities
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_stochastic_probabilities
+
 Description
 -----------
 
@@ -25,15 +37,7 @@ Arguments
    * - ``prefix`` (str)
      - Registered parameter name
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.stochastic_param.add_stochastic_probabilities
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_stochastic_probabilities
 
 Example
 -------

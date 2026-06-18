@@ -1,6 +1,20 @@
 initialize_building_variables
 ==============================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_variables
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_flex_variables
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_building_variables
+
 Description
 -----------
 
@@ -14,17 +28,8 @@ Variables Created
 * ``Te[i, t]`` — envelope / wall temperature (°C)
 * Flexibility variables for upward/downward thermal flexibility (optional)
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_variables
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_building_var.initialize_building_flex_variables
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_building_variables
 
 See Also
 --------

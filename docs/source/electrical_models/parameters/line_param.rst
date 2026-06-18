@@ -1,6 +1,18 @@
 line_param
 ==========
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.line_param_fun.line_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.line_param
+
 Description
 -----------
 
@@ -53,15 +65,7 @@ Per-Unit System
 Line impedances are stored in per-unit on the system base
 ``anc_Vars.S_Base`` (MVA) and nominal voltage.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.line_param_fun.line_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.line_param
 
 Example
 -------

@@ -1,6 +1,22 @@
 initialize_hp_params
 ====================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_params
+
+.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.hp_flexibility_params
+
+.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_stochastic_params
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_hp_params
+
 Description
 -----------
 
@@ -19,21 +35,10 @@ Flexibility Parameters
 Use :func:`~flexgridpy.electrical_models.parameters.hp_param_fun.hp_flexibility_params`
 to additionally register upward/downward thermal flexibility bounds.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_params
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.hp_flexibility_params
 
-.. autofunction:: flexgridpy.electrical_models.parameters.hp_param_fun.initialize_hp_stochastic_params
 
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_hp_params
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.hp_flexibility_params
 
 See Also
 --------

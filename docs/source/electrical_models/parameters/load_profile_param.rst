@@ -1,6 +1,18 @@
 load_profile_param
 ==================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.load_param_fun.load_profile_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.load_profile_param
+
 Description
 -----------
 
@@ -45,15 +57,7 @@ Validation
 * Time index must match ``model.STimes`` exactly.
 * If multi-column, columns must equal ``model.SLoadbuses``.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.load_param_fun.load_profile_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.load_profile_param
 
 Example
 -------

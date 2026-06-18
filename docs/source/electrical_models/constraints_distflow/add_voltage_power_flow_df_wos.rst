@@ -1,6 +1,18 @@
 add_voltage_power_flow_df_wos_constraint
 =======================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_voltage_power_flow_df_wos_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_voltage_power_flow_df_wos_constraint
+
 Description
 -----------
 
@@ -42,15 +54,7 @@ Arguments
    * - ``name_prefix`` (str)
      - Constraint group name
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_voltage_power_flow_df_wos_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_voltage_power_flow_df_wos_constraint
 
 Example
 -------

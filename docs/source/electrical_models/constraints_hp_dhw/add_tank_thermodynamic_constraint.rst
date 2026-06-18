@@ -1,6 +1,18 @@
 add_tank_thermodynamic_constraint
 ==================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.dhw.stirred_tank_thermodynamic_constr.add_tank_thermodynamic_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_tank_thermodynamic_constraint
+
 Description
 -----------
 
@@ -44,15 +56,7 @@ Arguments
    * - ``Q_dynamic_prefix_name``
      - Constraint group name
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.dhw.stirred_tank_thermodynamic_constr.add_tank_thermodynamic_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_tank_thermodynamic_constraint
 
 Example
 -------

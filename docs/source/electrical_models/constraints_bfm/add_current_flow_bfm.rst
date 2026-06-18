@@ -1,6 +1,18 @@
 add_current_flow_bfm
 ======================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_current_flow_bfm
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_current_flow_bfm
+
 Description
 -----------
 
@@ -15,15 +27,7 @@ Mathematical Formulation
 
 Both forward and reverse line directions are constrained.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_current_flow_bfm
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_current_flow_bfm
 
 See Also
 --------

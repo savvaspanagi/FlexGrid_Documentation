@@ -1,6 +1,18 @@
 alpha_bfm_param
 ===============
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.bfm_alpha_param_fun.alpha_bfm_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.alpha_bfm_param
+
 Description
 -----------
 
@@ -27,13 +39,3 @@ Required Before
 
 Call this before adding BFM voltage-drop constraints
 (:doc:`../constraints_bfm/add_voltage_drop_bfm`).
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.parameters.bfm_alpha_param_fun.alpha_bfm_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.alpha_bfm_param

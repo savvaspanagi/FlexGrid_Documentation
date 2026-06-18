@@ -1,6 +1,18 @@
 add_stochastic_set
 ==================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.sets.stochastic_set.add_stochastic_set
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_stochastic_set
+
 Description
 -----------
 
@@ -31,15 +43,7 @@ Parameters
    * - ``stochastic_set_values`` (int)
      - Number of scenarios :math:`N_s`
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.sets.stochastic_set.add_stochastic_set
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_stochastic_set
 
 Example
 -------

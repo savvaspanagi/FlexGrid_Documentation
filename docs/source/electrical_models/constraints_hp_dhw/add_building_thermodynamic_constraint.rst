@@ -1,6 +1,18 @@
 add_building_thermodynamic_constraint
 ======================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.hp.building_3R2C_thermodynamic_constr.add_building_thermodynamic_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_building_thermodynamic_constraint
+
 Description
 -----------
 
@@ -59,15 +71,7 @@ Resistances :math:`R_{\text{in,e}}, R_{\text{in,a}}, R_{e,a}` and capacitances
 :math:`C_\text{in}, C_e` are obtained from tuned grey-box models
 (:doc:`../../building_modeling/temperature_tuning`).
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.hp.building_3R2C_thermodynamic_constr.add_building_thermodynamic_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_building_thermodynamic_constraint
 
 Example
 -------

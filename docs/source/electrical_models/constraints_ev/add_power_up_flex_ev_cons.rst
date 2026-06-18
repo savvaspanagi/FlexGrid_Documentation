@@ -1,6 +1,20 @@
 add_power_up_flex_ev_cons
 ==========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_up_flex_ev_cons
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_up_flex_max_cons
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_up_flex_ev_cons
+
 Description
 -----------
 
@@ -20,19 +34,9 @@ Companion constraint ``add_power_up_flex_max_cons`` additionally enforces:
 
    p_{i,t}^{\uparrow,\text{flex}} + p_{i,t}^\text{ch} \leq \overline{P}_\text{ch}
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_up_flex_ev_cons
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_up_flex_max_cons
 
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_up_flex_ev_cons
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_up_flex_max_cons
 
 See Also
 --------

@@ -1,6 +1,18 @@
 add_brunch_current_flow_df_wos_SOCP
 ====================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_brunch_current_flow_df_wos_SOCP_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_brunch_current_flow_df_wos_SOCP_constraint
+
 Description
 -----------
 
@@ -27,15 +39,7 @@ Arguments
 
 Same as :doc:`add_brunch_current_flow_df_wos_equal`.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_brunch_current_flow_df_wos_SOCP_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_brunch_current_flow_df_wos_SOCP_constraint
 
 Example
 -------

@@ -1,6 +1,20 @@
 add_ev_soc_constraint
 =====================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_soc_cons.add_ev_soc_constraint
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_soc_cons.add_ev_soc_constraint_stochastic
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_ev_soc_constraint
+
 Description
 -----------
 
@@ -50,17 +64,8 @@ Required Parameters
 * ``ev_arrival_time_param``, ``EV_trip_energy_needs_param`` (from :doc:`../parameters/initialize_ev_char_params`)
 * ``pEVch`` — charging power variable
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_soc_cons.add_ev_soc_constraint
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_soc_cons.add_ev_soc_constraint_stochastic
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_ev_soc_constraint
 
 Example
 -------

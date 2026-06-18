@@ -1,6 +1,18 @@
 initialize_ev_params
 ====================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.ev_param_fun.initialize_ev_params
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_params
+
 Description
 -----------
 
@@ -45,15 +57,7 @@ Arguments
 All seven prefix arguments are **required** strings naming the registered Pyomo
 ``Param`` objects.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_param_fun.initialize_ev_params
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_params
 
 Example
 -------

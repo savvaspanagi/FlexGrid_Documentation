@@ -1,6 +1,18 @@
 add_power_ch_dp_ev_cons
 ========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_power_dp.add_power_ch_dp_ev_cons
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_ch_dp_ev_cons
+
 Description
 -----------
 
@@ -13,13 +25,3 @@ Mathematical Formulation
 .. math::
 
    \underline{P}_\text{ch} \leq p_{i,t}^\text{ch} \leq \overline{P}_\text{ch}
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_power_dp.add_power_ch_dp_ev_cons
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_ch_dp_ev_cons

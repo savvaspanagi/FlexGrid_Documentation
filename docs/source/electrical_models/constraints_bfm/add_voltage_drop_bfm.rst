@@ -1,6 +1,18 @@
 add_voltage_drop_bfm
 =====================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_voltage_drop_bfm
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_voltage_drop_bfm
+
 Description
 -----------
 
@@ -45,15 +57,7 @@ Arguments
    * - ``name_prefix``, ``name_reverse_prefix``
      - Constraint group names
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.BFM_wshunt_radial_constr.add_voltage_drop_bfm
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_voltage_drop_bfm
 
 See Also
 --------

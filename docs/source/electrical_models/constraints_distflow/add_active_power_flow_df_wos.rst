@@ -1,6 +1,18 @@
 add_active_power_flow_df_wos_constraint
 ======================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_active_power_flow_df_wos_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_df_wos_constraint
+
 Description
 -----------
 
@@ -55,15 +67,7 @@ Arguments
    * - ``p_offer_var`` (optional)
      - Market generator offer dispatch
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_active_power_flow_df_wos_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_active_power_flow_df_wos_constraint
 
 Example
 -------

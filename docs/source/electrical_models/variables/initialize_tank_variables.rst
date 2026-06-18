@@ -1,6 +1,20 @@
 initialize_tank_variables
 =========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_tank_var.initialize_tank_variables
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_tank_var.initialize_tank_flexibility_variables
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_tank_variables
+
 Description
 -----------
 
@@ -14,17 +28,8 @@ Variables Created
 * ``Qtank[i, t]`` — thermal power delivered to tank (kW)
 * Flexibility variables for tank thermal flexibility (optional)
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_tank_var.initialize_tank_variables
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_tank_var.initialize_tank_flexibility_variables
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_tank_variables
 
 See Also
 --------

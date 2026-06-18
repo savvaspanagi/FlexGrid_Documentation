@@ -1,6 +1,20 @@
 add_power_down_flex_ev_cons
 ============================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_down_flex_ev_cons
+
+.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_down_flex_min_cons
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_down_flex_ev_cons
+
 Description
 -----------
 
@@ -20,19 +34,9 @@ Companion constraint ``add_power_down_flex_min_cons`` enforces:
 
    p_{i,t}^{\downarrow,\text{flex}} \leq p_{i,t}^\text{ch}
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_down_flex_ev_cons
 
-.. autofunction:: flexgridpy.electrical_models.constraints.ev.ev_flexibility_cons.add_power_down_flex_min_cons
 
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_down_flex_ev_cons
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_power_down_flex_min_cons
 
 See Also
 --------

@@ -1,6 +1,20 @@
 initialize_ev_char_params
 =========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_params
+
+.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_stochastic_params
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_char_params
+
 Description
 -----------
 
@@ -38,17 +52,8 @@ At each departure event :math:`x`, the SoC is reduced by the trip energy need:
 
    E_{i,t_\text{arr}-1} = E_{i,t_\text{arr}-2} - E_{i,x}^\text{trip}
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_params
 
-.. autofunction:: flexgridpy.electrical_models.parameters.ev_char_param_fun.initialize_ev_char_stochastic_params
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_ev_char_params
 
 See Also
 --------

@@ -1,6 +1,20 @@
 initialize_branch_square_variables
 =================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_line_var.initialize_branch_square_variables
+
+.. autofunction:: flexgridpy.electrical_models.variables.def_line_var.initialize_branch_stochastic_variables
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_branch_square_variables
+
 Description
 -----------
 
@@ -14,17 +28,8 @@ Variables Created
 * Active power flow :math:`P_{ij,t}`
 * Reactive power flow :math:`Q_{ij,t}`
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_line_var.initialize_branch_square_variables
 
-.. autofunction:: flexgridpy.electrical_models.variables.def_line_var.initialize_branch_stochastic_variables
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.initialize_branch_square_variables
 
 See Also
 --------

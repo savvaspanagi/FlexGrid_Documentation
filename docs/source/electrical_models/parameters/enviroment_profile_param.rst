@@ -1,6 +1,20 @@
 enviroment_profile_param
 ========================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_param
+
+.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_stochastic_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.enviroment_profile_param
+
 Description
 -----------
 
@@ -24,17 +38,8 @@ Arguments
    * - ``tout_prefix``, ``ghi_prefix``
      - Registered parameter names
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_param
 
-.. autofunction:: flexgridpy.electrical_models.parameters.enviroment_param.enviroment_profile_stochastic_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.enviroment_profile_param
 
 See Also
 --------

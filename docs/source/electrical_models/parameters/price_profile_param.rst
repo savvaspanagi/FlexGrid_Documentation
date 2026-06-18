@@ -1,6 +1,20 @@
 price_profile_param
 ===================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_param
+
+.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_stochastic_param
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.price_profile_param
+
 Description
 -----------
 
@@ -29,15 +43,3 @@ The price enters the objective as:
 .. math::
 
    \min \sum_{t \in \mathcal{T}} \lambda_t \left( \sum_j P_{j,t}^\text{grid} \right)
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_param
-
-.. autofunction:: flexgridpy.electrical_models.parameters.price_profile_param.price_profile_stochastic_param
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.price_profile_param

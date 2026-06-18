@@ -1,6 +1,18 @@
 add_reactive_power_flow_df_wos_constraint
 ========================================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_reactive_power_flow_df_wos_constraint
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_reactive_power_flow_df_wos_constraint
+
 Description
 -----------
 
@@ -45,13 +57,3 @@ Arguments
      - EV reactive charging power
    * - ``q_hp_var`` (optional)
      - Heat pump reactive power
-
-API Reference
--------------
-
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.add_reactive_power_flow_df_wos_constraint
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.add_reactive_power_flow_df_wos_constraint

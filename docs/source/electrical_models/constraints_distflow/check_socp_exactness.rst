@@ -1,6 +1,18 @@
 check_socp_exactness
 ====================
 
+
+
+Function
+--------
+
+.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.check_socp_exactness
+
+Manager Method
+--------------
+
+.. automethod:: flexgridpy.electrical_models.Manager.Manager.check_socp_exactness
+
 Description
 -----------
 
@@ -44,15 +56,7 @@ Returns
 List of violations ``((i, j, t), lhs, rhs, gap)`` for branches where the
 relaxation is not tight.
 
-API Reference
--------------
 
-.. autofunction:: flexgridpy.electrical_models.constraints.pf.distflow_wo_shunt_constr.check_socp_exactness
-
-Manager Wrapper
----------------
-
-.. automethod:: flexgridpy.electrical_models.Manager.Manager.check_socp_exactness
 
 Example
 -------
