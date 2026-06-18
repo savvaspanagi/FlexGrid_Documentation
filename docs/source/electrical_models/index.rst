@@ -5,8 +5,7 @@ FlexGridPy builds a **Pyomo optimization problem** on top of a
 `pandapower <https://pandapower.readthedocs.io>`_ network via the
 :class:`~flexgridpy.electrical_models.Manager.Manager` class.
 
-Each function has its own page in the sidebar (like pandapower elements),
-with signature, parameters, equations, and examples.
+Each function has its own page in the sidebar, with signature, parameters, equations, and examples.
 
 .. rubric:: Recommended Workflow
 
