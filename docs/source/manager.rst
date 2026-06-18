@@ -26,15 +26,6 @@ Architecture
         └── ...           → other components
         
 
-Function
---------
-
-.. autoclass:: flexgridpy.electrical_models.Manager.Manager
-   :members:
-   :undoc-members: False
-   :show-inheritance:
-   :special-members: __init__
-
 Example
 -------
 
